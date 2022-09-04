@@ -1,0 +1,163 @@
+#main {
+  width: 80%;
+  border: 5px solid grey;
+  margin: 0px auto;
+  font-family: cursive;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #fc354c;
+  text-align: center;
+  line-height: 80px;
+  font-size: 230%;
+}
+
+.body {
+  width: 100%;
+  height: 650px;
+}
+
+.left_block {
+  width: 40%;
+  height: 100%;
+  background-color: #0ABFBC;
+  float: left;
+}
+
+
+img {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  border-radius: 50px;
+  margin: 20px 135px;
+  border: 5px solid grey;
+}
+
+.Name_Surname {
+  font-size: 200%;
+  text-align: center;
+}
+
+.line {
+  height: 3px;
+  width: 80%;
+  background-color: #fc354c;
+  margin: auto;
+}
+
+.Soft_Skills {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 200%;
+  margin: 30px;
+
+}
+
+.Emotional_intellegence {
+  border-radius: 15px;
+  font-size: 70%;
+  background-color: #0b1995;
+  margin: 5px auto;
+  width: 80%;
+  color: aliceblue;
+  text-decoration: underline #0b1995;
+}
+
+.Team_work {
+  border-radius: 15px;
+  font-size: 70%;
+  background-color: #bfa40a;
+  margin: 5px auto;
+  width: 80%;
+  color: black;
+  text-decoration: underline #bfa40a;
+}
+
+.Communicability {
+  border-radius: 15px;
+  font-size: 70%;
+  background-color: #bf400a;
+  margin: 5px auto;
+  width: 80%;
+  color: black;
+  text-decoration: underline #bf400a;
+}
+
+.contacts {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 200%;
+  margin: 1px auto;
+}
+
+.telegram {
+  font-size: 120%;
+  margin: 1px auto;
+  text-align: auto;
+}
+
+.git_hub {
+  font-size: 120%;
+  margin: 1px auto;
+  text-align: auto;
+}
+
+.right_block {
+  width: 60%;
+  height: 100%;
+  float: left
+}
+
+h2 {
+  margin: 20px 10px;
+}
+
+h4 {
+  margin: 5px;
+}
+
+.line2 {
+  position: relative;
+  height: 3px;
+  width: 80%;
+  margin: 20px 0px;
+}
+
+.line2:before,
+.line2:after {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  background: linear-gradient(45deg, rgba(241, 196, 15, 1), rgba(69, 167, 63, 1), rgba(57, 172, 113, 1),
+      rgba(49, 178, 179, 1), rgba(75, 72, 181, 1), rgba(147, 88, 179, 1), rgba(177, 84, 167, 1),
+      rgba(174, 68, 84, 1), rgba(177, 84, 167, 1), rgba(147, 88, 179, 1), rgba(75, 72, 181, 1),
+      rgba(49, 178, 179, 1), rgba(57, 172, 113, 1), rgba(69, 167, 63, 1), rgba(241, 196, 15, 1));
+  background-size: 400%;
+  width: calc(100%);
+  height: calc(100%);
+  border-radius: 10px;
+  z-index: -1;
+  animation: anim 20s linear infinite;
+}
+
+@keyframes anim {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 300% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.line2:after {
+  filter: blur(30px);
+}
